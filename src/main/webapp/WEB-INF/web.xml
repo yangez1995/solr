@@ -75,6 +75,12 @@
     <url-pattern>/*</url-pattern>
   </filter-mapping>
 
+  <!-- <listener>
+    <listener-class>
+      org.apache.solr.handler.dataimport.scheduler.ApplicationListener
+    </listener-class>
+  </listener> -->
+
   <servlet>
     <servlet-name>LoadAdminUI</servlet-name>
     <servlet-class>org.apache.solr.servlet.LoadAdminUiServlet</servlet-class>
